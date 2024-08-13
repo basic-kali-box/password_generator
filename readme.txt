@@ -20,36 +20,22 @@ To run this project, you'll need Python installed on your machine. This project 
 1. **Clone the Repository**
 
    First, clone the repository to your local machine:
-   ```bash
-   git clone https://github.com/yourusername/password_generator.git
-   cd password_generator
+   
+   ""git clone https://github.com/basic-kali-box/password_generator.git ""
+   
+   ""cd password_generator""
 
-    Create a Virtual Environment (Optional but Recommended)
 
-    It’s a good practice to use a virtual environment to manage dependencies:
+2. **Install Dependencies
 
-    bash
+    Install the required packages listed in requirements.txt:
 
-python -m venv venv
-source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+    "" pip install -r requirements.txt ""
 
-Install Dependencies
 
-Install the required packages listed in requirements.txt:
-
-bash
-
-    pip install -r requirements.txt
-
-Usage
-
-    Run the Password Generator
-
-    Execute the main script to generate a password:
-
-    bash
-
-    python main1.py
+3. **Usage
+    
+    "" python main1.py "" or "" python3 main1.py ""
 
     You will be prompted to enter details such as the website name, username, and whether to include symbols in the password.
 
@@ -57,9 +43,9 @@ Usage
 
     Generated passwords will be saved in passwords.txt in the project directory.
 
+
 Example
 
-bash
 
 Welcome to the Password Generator!
 Which website? example.com
@@ -71,6 +57,4 @@ This will generate a 16-character password with symbols and save it to passwords
 Contributing
 
 Feel free to fork the repository and submit pull requests with improvements or fixes. For major changes, please open an issue first to discuss what you would like to change.
-License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
